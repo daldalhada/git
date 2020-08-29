@@ -12,3 +12,7 @@ app.get('/banana', function(req, res){
 app.get('/mango', function(req, res){
     res.send('mango');
 });
+
+app.get('/grape', function(req, res){
+    res.send('grape');
+});
