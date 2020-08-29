@@ -16,3 +16,7 @@ app.get('/mango', function(req, res){
 app.get('/grape', function(req, res){
     res.send('grape');
 });
+
+app.get('/plum', function(req, res){
+    res.send('plum');
+});
